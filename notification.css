@@ -8,7 +8,7 @@
     background-color: #2f2d6e;
 }
 .navbarimg{
-    border-radius: 50px;
+    border-radius: 10px;
 }
 #h4{
     color:white;
@@ -20,25 +20,22 @@
 }
 .bg-container2{
     background-color: #dd6ad7;
-    height:50vh;
+    height:12vh;
     width:auto;
     border-radius: 5px;
 
 }
 #bg-continer1{
     background-color: #282727;
-    border-top-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 150px;
-    border-bottom-left-radius: 150px;
+   
 }
 .notification-heading{
     color: blue;
 }
 #bg-continer2{
-    background-color:#adccc1;
-    border-top-left-radius: 150px;
-    border-bottom-right-radius: 150px;
+    background-color:#7f8a82;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
 }
