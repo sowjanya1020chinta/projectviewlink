@@ -52,6 +52,13 @@
     margin: 2px;
     color: black;
 }
+.exe {
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      padding: 5px;
+      padding-top: 15px;
+  }
 .footer-section-bgcolor{
     background-color: #2a2b2b;
     color: white;
@@ -68,4 +75,13 @@
 .footer-size2{
     font-size: 50px;
     padding:10px;
+}
+
+/* about us background image peoperty*/
+
+.background-continer-aboutus{
+
+    background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1703594481/about-img_zg7sgn.jpg");
+    height:50px;
+    width:auto;
 }
