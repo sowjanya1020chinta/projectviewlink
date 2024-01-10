@@ -52,11 +52,29 @@
     height:500px;
     width: 500px;
 }
-@media(max-width: 700px){
+/*----footersection---*/
+.footer-section-bgcolor{
+    background-color: #040c63;
+    color: white;
+   
+}
+.footer-size{
+    font-size: 25px;
+    font-family:serif,Garamond;
+    font-weight: normal;
+    font-style: normal;
+    padding-left: 5px;
+    text-align: center;
+}
+.footer-size2{
+    font-size: 50px;
+    padding:10px;
+}
+@media(max-width: 920px){
     .bg-container{
         background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1704604537/SL-043022-50050-09_bexbqx.jpg");
         background-size: cover;
-        height:100vh;
+        height:110vh;
         width:auto;
     }
     .h3{
@@ -67,7 +85,7 @@
         font-size:15px;
     }
     .boxcardelement{
-        height:250px;
+        height:200px;
         width:100px;
         background-color: white;
         border-radius: 20px;
@@ -78,6 +96,157 @@
         height:250px;
         width: 250px;
     }
+    .background-color{
+        background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1703777466/WhatsApp_Image_2023-12-28_at_4.13.23_PM_1_tyzmvb.jpg");
+        background-size: cover;
+        
+    }
+    .heading{
+        color:white;
+        text-align: center;
+        font-size:30px;
+        font-family: serif;
+        padding-top:20px;
+        margin-top:110px;
+        padding-top: 50px;
+    }
+    /*imgs property*/
+    .img{
+        border-radius: 60px;
+    }
+    /*headings in all the application*/
+    .design-heading{
+        color: #e35baa;
+        font-size:25px;
+        font-family: Monospace;
+        text-align: left;
+        font-weight: bold;
+    
+    }
+    /*paragraph in all the applications*/
+    .design-paragraph{
+        color: white;
+        font-size:15px;
+        font-weight: normal;
+        font-style: oblique;
+    }
+    .frame-icon{
+        border-radius: 100px;
+    }
+    
     
 }
-/*----footersection---*/
+/*heading properties*/
+.background-color{
+    background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1703777466/WhatsApp_Image_2023-12-28_at_4.13.23_PM_1_tyzmvb.jpg");
+    background-size: cover;
+    
+}
+.heading{
+    color:white;
+    text-align: center;
+    font-size:30px;
+    font-family: serif;
+    padding-top:20px;
+    margin-top:110px;
+    padding-top: 50px;
+}
+/*imgs property*/
+.img{
+    border-radius: 60px;
+}
+/*headings in all the application*/
+.design-heading{
+    color: #e35baa;
+    font-size:25px;
+    font-family: Monospace;
+    text-align: left;
+    font-weight: bold;
+
+}
+/*paragraph in all the applications*/
+.design-paragraph{
+    color: white;
+    font-size:15px;
+    font-weight: normal;
+    font-style: oblique;
+}
+.frame-icon{
+    border-radius: 100px;
+}
+.ourservicesbackground-color{
+    background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1703777466/WhatsApp_Image_2023-12-28_at_4.13.23_PM_1_tyzmvb.jpg");
+    background-size: cover;
+    height:155vh;
+    width:auto;
+    
+}
+.ourserivicesheading{
+    color:white;
+    text-align: center;
+    font-size:30px;
+    font-family: serif;
+    padding-top:20px;
+    margin-top: 120px;
+}
+.ourservicesimgs{
+    border-radius: 20px;
+}
+.ourservicesparagraph{
+    color: white;
+    font-size:20px;
+    padding: 5px;
+    font-family:"Roboto";
+
+}
+.ourtamcarosulleitem{
+    margin-top: 120px;
+}
+.bg-ourteam{
+    background-color:#9ea8a7;
+    height:45vh;
+}
+.outteammargin{
+    margin-top: 50px;
+
+}
+.ourteamheading{
+    font-size:30px;
+    font-family:monospace;
+    font-style: oblique;
+    text-align: center;
+    color: #050404;
+}
+.ourteamparagraph{
+    font-size:20px;
+    font-family: serif;
+    font-style: oblique;
+    color:  #050404;
+    padding: 5px;
+
+}
+@media(max-width: 920px){
+    .bg-ourteam{
+        background-color:#9ea8a7;
+        height:120vh;
+    }
+    .outteammargin{
+        margin-top: 20px;
+    
+    }
+    .ourteamheading{
+        font-size:30px;
+        font-family:monospace;
+        font-style: oblique;
+        text-align: center;
+        color: #050404;
+    }
+    .ourteamparagraph{
+        font-size:20px;
+        font-family: serif;
+        font-style: oblique;
+        color:  #050404;
+        padding: 5px;
+    
+    }
+}
