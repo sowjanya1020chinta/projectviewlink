@@ -174,14 +174,14 @@
 .frame-icon{
     border-radius: 100px;
 }
-.ourservicesbackground-color{
+.ourindustriesbackground-color{
     background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1703777466/WhatsApp_Image_2023-12-28_at_4.13.23_PM_1_tyzmvb.jpg");
     background-size: cover;
     height:155vh;
     width:auto;
     
 }
-.ourserivicesheading{
+.ourindustiresheading{
     color:white;
     text-align: center;
     font-size:30px;
@@ -189,10 +189,10 @@
     padding-top:20px;
     margin-top: 120px;
 }
-.ourservicesimgs{
+.ourindustriesimgs{
     border-radius: 20px;
 }
-.ourservicesparagraph{
+.ourindustriesparagraph{
     color: white;
     font-size:20px;
     padding: 5px;
@@ -249,4 +249,61 @@
         padding: 5px;
     
     }
+}
+.ourservicesbackground-color{
+    background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1703777466/WhatsApp_Image_2023-12-28_at_4.13.23_PM_1_tyzmvb.jpg");
+    background-size: cover;
+    height:110vh;
+    width:auto;
+
+}
+.ourserivicesheading{
+    color:white;
+    text-align: center;
+    font-size:30px;
+    font-family: serif;
+    padding-top:20px;
+    margin-top: 120px;
+}
+.ourservicesimgs{
+    border-radius: 20px;
+}
+.ourservicesparagraph{
+    color: white;
+    font-size:20px;
+    padding: 5px;
+    font-family:"Roboto";
+
+}
+.ouraddressbackground-color{
+    background-color: #9ea8a7;
+    background-size: cover;
+    height:80vh;
+    width:auto;
+    
+}
+.ouraddressMarigin{
+    margin-top: 145px;
+}
+.headingouraddress{
+    color:#b0463a
+}
+.pargraphouradress{
+    font-size: 20px;
+}
+@media(max-width: 920px){
+
+    .ouraddressbackground-color{
+        background-color: #9ea8a7;
+        background-size: cover;
+        height:auto;
+        width:auto;
+        
+    }
+    .ouraddressMarigin1{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+
 }
