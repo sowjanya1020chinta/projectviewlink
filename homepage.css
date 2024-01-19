@@ -39,6 +39,7 @@
 }
 .boxcardelement{
     height:180px;
+    width:auto;
     background-color: white;
     border-radius: 15px;
     border-width: none;
@@ -70,31 +71,32 @@
     font-size: 50px;
     padding:10px;
 }
+
 @media(max-width: 920px){
     .bg-container{
         background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1704604537/SL-043022-50050-09_bexbqx.jpg");
         background-size: cover;
-        height:110vh;
+        height:auto;
         width:auto;
+    }
+    .boxcardelement{ 
+        height: 180px;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 150px;
     }
     .h3{
         font-size:10px;
-        padding:5px;
+        padding:3px;
     }
     .p{
         font-size:15px;
     }
-    .boxcardelement{
-        height:200px;
-        width:100px;
-        background-color: white;
-        border-radius: 20px;
-        padding:10px;
-    }
+   
     .imgmargin{
         margin-top: 20px;
-        height:250px;
-        width: 250px;
+        height:300px;
+        width: 270px;
     }
     .background-color{
         background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1703777466/WhatsApp_Image_2023-12-28_at_4.13.23_PM_1_tyzmvb.jpg");
@@ -107,7 +109,6 @@
         font-size:30px;
         font-family: serif;
         padding-top:20px;
-        margin-top:110px;
         padding-top: 50px;
     }
     /*imgs property*/
@@ -136,6 +137,8 @@
     
     
 }
+
+
 /*heading properties*/
 .background-color{
     background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1703777466/WhatsApp_Image_2023-12-28_at_4.13.23_PM_1_tyzmvb.jpg");
