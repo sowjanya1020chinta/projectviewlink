@@ -205,12 +205,6 @@ body{
     font-family:"Roboto";
 
 }
-@media(max-width: 920px){
-    .ourindustriesbackground-color{
-        height: 170vh;
-        width: auto;  
-    }
-}
 .ourtamcarosulleitem{
     margin-top: 120px;
 }
@@ -286,13 +280,7 @@ body{
     padding: 5px;
     font-family:"Roboto";
 
-}
-@media(max-width: 920px){
-    .ourservicesbackground-color{
-        height: 135vh;
-        width: auto;  
-    }
-}
+}   
 .ouraddressbackground-color{
     background-color: #9ea8a7;
     background-size: cover;
@@ -357,8 +345,8 @@ span:hover{
 @media(max-width:920px){
     
     .imgs{
-        height: 370px;
-        width: 300;
+        height: 250px;
+        width: 240;
     }
     
     .whoweareparagraph{
