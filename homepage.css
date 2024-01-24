@@ -207,7 +207,7 @@ body{
 }
 @media(max-width: 920px){
     .ourindustriesbackground-color{
-        height: 180vh;
+        height: 170vh;
         width: auto;  
     }
 }
@@ -289,7 +289,7 @@ body{
 }
 @media(max-width: 920px){
     .ourservicesbackground-color{
-        height: 140vh;
+        height: 135vh;
         width: auto;  
     }
 }
@@ -357,8 +357,8 @@ span:hover{
 @media(max-width:920px){
     
     .imgs{
-        height: 450px;
-        width: 400px;
+        height: 370px;
+        width: 300;
     }
     
     .whoweareparagraph{
