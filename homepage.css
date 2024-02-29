@@ -1,359 +1,337 @@
 /*----navbar Section-----*/
-body{
-    display: block;
+body {
+  display: block;
 }
-.navbarbackgroun-color{
-    background-color: #040c63;
+.navbarbackgroun-color {
+  background-color: #040c63;
 }
-.navbar-checkbtn{
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size:18px
+.navbar-checkbtn {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
 }
-.navbar-logo{
-    color: white;
-    font-size: 30px;
+.navbar-logo {
+  color: white;
+  font-size: 30px;
 }
-#nav-text{
-    color: white;
-    font-size:18px;
-    font-weight: 100px;
+#nav-text {
+  color: white;
+  font-size: 18px;
+  font-weight: 100px;
 }
-.bg-cotanier{
-    background-color: aqua;
-    height:200vh;
+.bg-cotanier {
+  background-color: aqua;
+  height: 200vh;
 }
-.contactUsbutton{
-    height: 30px;
-    width: 100px;
-    border-radius: 15px;
-    background-color: white;
-    color: black;
-    border-width: none;
-    border-style: none;
+.contactUsbutton {
+  height: 30px;
+  width: 100px;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  border-width: none;
+  border-style: none;
 }
 /*----content section in Home Page*/
-.bg-container{
-    background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1704604537/SL-043022-50050-09_bexbqx.jpg");
-    background-size: cover;
-    height:100vh;
-    width:auto;
+.bg-container {
+  background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1704604537/SL-043022-50050-09_bexbqx.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: auto;
 }
-.boxcardelement{
-    height:180px;
-    width:auto;
-    background-color: white;
-    border-radius: 15px;
-    border-width: none;
-    border-style: none;
-    padding:25px;
-    margin-top: 200px;
-   
+.boxcardelement {
+  height: 180px;
+  width: auto;
+  background-color: white;
+  border-radius: 15px;
+  border-width: none;
+  border-style: none;
+  padding: 25px;
+  margin-top: 200px;
 }
-.imgmargin{
-    margin-top: 100px;
-    float: right;
-    height:500px;
-    width: 500px;
+.imgmargin {
+  margin-top: 100px;
+  float: right;
+  height: 500px;
+  width: 500px;
 }
 /*----footersection---*/
-.footer-section-bgcolor{
-    background-color: #040c63;
-    color: white;
-   
+.footer-section-bgcolor {
+  background-color: #040c63;
+  color: white;
 }
-.footer-size{
-    font-size: 25px;
-    font-family:serif,Garamond;
-    font-weight: normal;
-    font-style: normal;
-    padding-left: 5px;
-    text-align: center;
+.footer-size {
+  font-size: 25px;
+  font-family: serif, Garamond;
+  font-weight: normal;
+  font-style: normal;
+  padding-left: 5px;
+  text-align: center;
 }
-.footer-size2{
-    font-size: 50px;
-    padding:10px;
-}
-
-@media(max-width: 920px){
-    .bg-container{
-        background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1704604537/SL-043022-50050-09_bexbqx.jpg");
-        background-size: cover;
-        height:auto;
-        width:auto;
-    }
-    .boxcardelement{ 
-        height: 180px;
-        background-color: white;
-        border-radius: 20px;
-        margin-top: 150px;
-    }
-    .h3{
-        font-size:10px;
-        padding:3px;
-    }
-    .p{
-        font-size:15px;
-    }
-   
-    .imgmargin{
-        margin-top: 20px;
-        height:300px;
-        width: 270px;
-    }
-    .background-color{
-        background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1703777466/WhatsApp_Image_2023-12-28_at_4.13.23_PM_1_tyzmvb.jpg");
-        background-size: cover;
-        
-    }
-    .heading{
-        color:white;
-        text-align: center;
-        font-size:30px;
-        font-family: serif;
-        padding-top:20px;
-        padding-top: 50px;
-    }
-    /*imgs property*/
-    .img{
-        border-radius: 60px;
-    }
-    /*headings in all the application*/
-    .design-heading{
-        color: #e35baa;
-        font-size:25px;
-        font-family: Monospace;
-        text-align: left;
-        font-weight: bold;
-    
-    }
-    /*paragraph in all the applications*/
-    .design-paragraph{
-        color: white;
-        font-size:15px;
-        font-weight: normal;
-        font-style: oblique;
-    }
-    .frame-icon{
-        border-radius: 100px;
-    }
-    
-    
+.footer-size2 {
+  font-size: 50px;
+  padding: 10px;
 }
 
+@media (max-width: 920px) {
+  .bg-container {
+    background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1704604537/SL-043022-50050-09_bexbqx.jpg");
+    background-size: cover;
+    height: auto;
+    width: auto;
+  }
+  .boxcardelement {
+    height: 180px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 150px;
+  }
+  .h3 {
+    font-size: 10px;
+    padding: 3px;
+  }
+  .p {
+    font-size: 15px;
+  }
 
-/*heading properties*/
-.background-color{
+  .imgmargin {
+    margin-top: 20px;
+    height: 300px;
+    width: 270px;
+  }
+  .background-color {
     background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1703777466/WhatsApp_Image_2023-12-28_at_4.13.23_PM_1_tyzmvb.jpg");
     background-size: cover;
-    
-}
-.heading{
-    color:white;
+  }
+  .heading {
+    color: white;
     text-align: center;
-    font-size:30px;
+    font-size: 30px;
     font-family: serif;
-    padding-top:20px;
-    margin-top:110px;
+    padding-top: 20px;
     padding-top: 50px;
-}
-/*imgs property*/
-.img{
+  }
+  /*imgs property*/
+  .img {
     border-radius: 60px;
-}
-/*headings in all the application*/
-.design-heading{
+  }
+  /*headings in all the application*/
+  .design-heading {
     color: #e35baa;
-    font-size:25px;
+    font-size: 25px;
     font-family: Monospace;
     text-align: left;
     font-weight: bold;
-
-}
-/*paragraph in all the applications*/
-.design-paragraph{
+  }
+  /*paragraph in all the applications*/
+  .design-paragraph {
     color: white;
-    font-size:15px;
+    font-size: 15px;
     font-weight: normal;
     font-style: oblique;
-}
-.frame-icon{
+  }
+  .frame-icon {
     border-radius: 100px;
+  }
 }
-.ourindustriesbackground-color{
-    background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1703777466/WhatsApp_Image_2023-12-28_at_4.13.23_PM_1_tyzmvb.jpg");
-    background-size: cover;
-    height: 160vh;
-    width: auto;  
-}
-.ourindustiresheading{
-    color:white;
-    text-align: center;
-    font-size:30px;
-    font-family: serif;
-    padding-top:20px;
-    margin-top: 120px;
-}
-.ourindustriesimgs{
-    border-radius: 20px;
-}
-.ourindustriesparagraph{
-    color: white;
-    font-size:20px;
-    padding: 5px;
-    font-family:"Roboto";
 
+/*heading properties*/
+.background-color {
+  background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1703777466/WhatsApp_Image_2023-12-28_at_4.13.23_PM_1_tyzmvb.jpg");
+  background-size: cover;
 }
-.ourtamcarosulleitem{
-    margin-top: 120px;
+.heading {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: serif;
+  padding-top: 20px;
+  margin-top: 110px;
+  padding-top: 50px;
 }
-.bg-ourteam{
-    background-color:#9ea8a7;
-    height:auto;
+/*imgs property*/
+.img {
+  border-radius: 60px;
 }
-.outteammargin{
-    margin-top: 50px;
-
+/*headings in all the application*/
+.design-heading {
+  color: #e35baa;
+  font-size: 25px;
+  font-family: Monospace;
+  text-align: left;
+  font-weight: bold;
 }
-.ourteamheading{
-    font-size:30px;
-    font-family:monospace;
+/*paragraph in all the applications*/
+.design-paragraph {
+  color: white;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: oblique;
+}
+.frame-icon {
+  border-radius: 100px;
+}
+.ourindustriesbackground-color {
+  background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1703777466/WhatsApp_Image_2023-12-28_at_4.13.23_PM_1_tyzmvb.jpg");
+  background-size: cover;
+  height: 160vh;
+  width: auto;
+}
+.ourindustiresheading {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: serif;
+  padding-top: 20px;
+  margin-top: 120px;
+}
+.ourindustriesimgs {
+  border-radius: 20px;
+}
+.ourindustriesparagraph {
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  font-family: "Roboto";
+}
+.ourtamcarosulleitem {
+  margin-top: 120px;
+}
+.bg-ourteam {
+  background-color: #9ea8a7;
+  height: auto;
+}
+.outteammargin {
+  margin-top: 50px;
+}
+.ourteamheading {
+  font-size: 30px;
+  font-family: monospace;
+  font-style: oblique;
+  text-align: center;
+  color: #050404;
+}
+.ourteamparagraph {
+  font-size: 20px;
+  font-family: serif;
+  font-style: oblique;
+  color: #050404;
+  padding: 5px;
+}
+.ourteambrder-radius {
+  border-radius: 10px;
+}
+@media (max-width: 920px) {
+  .bg-ourteam {
+    background-color: #9ea8a7;
+    height: auto;
+  }
+  .outteammargin {
+    margin-top: 20px;
+  }
+  .ourteamheading {
+    font-size: 30px;
+    font-family: monospace;
     font-style: oblique;
     text-align: center;
     color: #050404;
-}
-.ourteamparagraph{
-    font-size:20px;
+  }
+  .ourteamparagraph {
+    font-size: 20px;
     font-family: serif;
     font-style: oblique;
-    color:  #050404;
+    color: #050404;
     padding: 5px;
-
+  }
 }
-.ourteambrder-radius{
-    border-radius: 10px;
+.ourservicesbackground-color {
+  background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1703777466/WhatsApp_Image_2023-12-28_at_4.13.23_PM_1_tyzmvb.jpg");
+  background-size: cover;
+  height: 110vh;
+  width: auto;
 }
-@media(max-width: 920px){
-    .bg-ourteam{
-        background-color:#9ea8a7;
-        height:auto;
-    }
-    .outteammargin{
-        margin-top: 20px;
-    
-    }
-    .ourteamheading{
-        font-size:30px;
-        font-family:monospace;
-        font-style: oblique;
-        text-align: center;
-        color: #050404;
-    }
-    .ourteamparagraph{
-        font-size:20px;
-        font-family: serif;
-        font-style: oblique;
-        color:  #050404;
-        padding: 5px;
-    
-    }
+.ourserivicesheading {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: serif;
+  padding-top: 20px;
+  margin-top: 120px;
 }
-.ourservicesbackground-color{
-    background-image: url("https://res.cloudinary.com/dtygqahbv/image/upload/v1703777466/WhatsApp_Image_2023-12-28_at_4.13.23_PM_1_tyzmvb.jpg");
-    background-size: cover;
-    height:110vh;
-    width:auto;
-
+.ourservicesimgs {
+  border-radius: 20px;
 }
-.ourserivicesheading{
-    color:white;
-    text-align: center;
-    font-size:30px;
-    font-family: serif;
-    padding-top:20px;
-    margin-top: 120px;
+.ourservicesparagraph {
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  font-family: "Roboto";
 }
-.ourservicesimgs{
-    border-radius: 20px;
+.ouraddressbackground-color {
+  background-color: #9ea8a7;
+  background-size: cover;
+  height: auto;
+  width: auto;
 }
-.ourservicesparagraph{
-    color: white;
-    font-size:20px;
-    padding: 5px;
-    font-family:"Roboto";
-
-}   
-.ouraddressbackground-color{
+.ouraddressMarigin {
+  margin-top: 145px;
+}
+.headingouraddress {
+  color: #b0463a;
+}
+.fontstyleouraddress {
+  font-family: serif;
+  font-style: normal;
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #33343b;
+}
+span:hover {
+  text-decoration: underline;
+}
+.pargraphouradress {
+  font-size: 20px;
+}
+@media (max-width: 920px) {
+  .ouraddressbackground-color {
     background-color: #9ea8a7;
     background-size: cover;
-    height:auto;
-    width:auto;
-    
-}
-.ouraddressMarigin{
-    margin-top: 145px;
-}
-.headingouraddress{
-    color:#b0463a
-}
-.fontstyleouraddress{
-    font-family: serif;
-    font-style:normal;
-    font-size: 20px;
-    padding: 5px;
-    cursor: pointer;
-    text-decoration:none;
-    color: #33343b;
-}
-span:hover{
-    text-decoration: underline;
-}
-.pargraphouradress{
-    font-size: 20px;
-}
-@media(max-width: 920px){
-
-    .ouraddressbackground-color{
-        background-color: #9ea8a7;
-        background-size: cover;
-        height:auto;
-        width:auto;
-        
-    }
-    .ouraddressMarigin1{
-        margin-top: 10px;
-        margin-bottom: 5px;
-    }
-   
-}
-.whoweareimg{
-    margin-top: 100px;
-}
-.imgs{
-    height: 500px;
-    width: 500px;
-}
-.whowearebg-color{
-    background-color: aliceblue;
     height: auto;
     width: auto;
+  }
+  .ouraddressMarigin1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
 }
-.whoweareparagraph{
-    font-size: 23px;
+.whoweareimg {
+  margin-top: 100px;
 }
-.whoweareparagraph2{
-    font-size: 20px;
+.imgs {
+  height: 500px;
+  width: 500px;
 }
-@media(max-width:920px){
-    
-    .imgs{
-        height: 250px;
-        width: 240;
-    }
-    
-    .whoweareparagraph{
-        font-size: 18px;
-    }
-    
+.whowearebg-color {
+  background-color: aliceblue;
+  height: auto;
+  width: auto;
+}
+.whoweareparagraph {
+  font-size: 23px;
+}
+.whoweareparagraph2 {
+  font-size: 20px;
+}
+@media (max-width: 920px) {
+  .imgs {
+    height: 250px;
+    width: 240;
+  }
+
+  .whoweareparagraph {
+    font-size: 18px;
+  }
 }
