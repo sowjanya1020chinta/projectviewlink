@@ -1,0 +1,139 @@
+/* first heading code title*/
+body{
+  font-family: serif, Garamond;
+}
+body p{
+  font-size:20px;
+}
+h1,h2,h3,h4{
+  /* font-size:bold; */
+  font-weight:bold
+}
+.text-color{
+  color:blue
+}
+.companytitle-heading{
+    background-color:blue;
+    color: white;
+    height:45px;
+    font-size:20px;
+}
+/*navbar code logics*/
+.log-heading-styling{
+  margin:5px
+}
+.company-log-title{
+  background:blue;
+  /* height:5px;
+  width:15px; */
+  color:white;
+  padding:2px;
+  border-radius:3px;
+}
+.company-log-title2{
+  background:gray;
+  /* height:10px;
+  width:15px; */
+  background:gray;
+  color:white;
+  padding:2px;
+  border-radius:3px;
+}
+.Legaltitle-heading-navbar{
+    display: flex;
+    flex-direction: row;   
+}
+.navbar-nav-pages-heading-left{
+    margin-left:auto;
+}
+.typeWriting-page-text{
+  margin-top:100px;
+  padding-left:22px;
+  padding-top:30px;
+}
+@media (min-width:992px) { 
+    .titleReport_imge_styles{
+      margin-top:150px;
+    }
+ }
+ /*Why it is so important heading--*/
+ /* .services-important-title{
+  display:flex;
+  flex-direction:row;
+  justify-content:center
+ } */
+  /*read more and read less properties logics*/
+  .mybox1 { 
+    display: none; 
+}
+.color-text{
+  color:blue
+}
+  .importanting-line-under-line{
+    font-size:20px;
+    font-weight:bold;
+  }
+ .services-important-title-img{
+  border-radius: 20px;
+ }
+ @media (max-width: 767.98px) { 
+  .services-important-title{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+  }
+  }
+  /*---footer section---*/
+  .footer{
+    background-color:#383838;
+    color:white;
+  }
+  .footer-pragraph-content{
+    color:white;
+  }
+  .footer-social-media-icons{
+    height:20px;
+    width:25px;
+    border:20px
+  }
+  .footer-sizing-img{
+    height:20px;
+    font:Serif;
+  }
+  .footer-size {
+    font-size: 25px;
+    font-family: serif, Garamond;
+    font-weight: normal;
+    font-style: normal;
+    padding-left: 5px;
+    text-align: center;
+    color:white;
+  }
+  .footer-size2 {
+    font-size: 50px;
+    padding: 10px;
+  }
+  .footer-icon-sizing{
+    font-size:25px;
+    font:Serif;
+  }
+  .footer-map-sizing{
+    font-size:15px;
+    font-family: serif, Garamond;
+    font-weight: normal;
+    font-style: normal;
+    padding-left: 5px;
+    text-align: center;
+    color:white;
+  }
+
+  /**terms and conditon pages styling**/
+  .terms-condition-margin-top{
+    margin-top:130px;
+  }
+  .terms-condition-class-heading{
+    padding-left:20px;
+    padding-right:20px
+  }
+ 
