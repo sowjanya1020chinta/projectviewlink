@@ -91,4 +91,41 @@ function changeReadMorelg() {
         mybutton.textContent = 'ReadMore';
         span1.style.display = "inline";
     }
-} 
+}
+
+
+const form = document.querySelector('form');
+const fullName = document.getElementById("name");
+const email = document.getElementById("email")
+const comments = document.getElementById("comments")
+
+
+function sendEmail() {
+    const bodyMessage = `Full Name: ${fullName.value} <br> Email: ${email.value} <br> comments: ${comments.value}`;
+    //console.log(bodyMessage);
+    Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "legaltitle.in@gmail.com",
+        Password: "B02A8031E8323889696B8E583B9F262AF71E",
+        To: 'legaltitle.in@gmail.com',
+        From: "legaltitle.in@gmail.com",
+        Subject: email.value,
+        Body: bodyMessage
+    }).then(
+        message => {
+            if (message == "OK") {
+                Swal.fire({
+                    title: "Success!",
+                    text: "Message sent sucessfully!",
+                    icon: "success"
+                });
+            }
+        }
+    );
+}
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    sendEmail();
+    form.reset();
+    return false;
+})

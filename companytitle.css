@@ -3,7 +3,7 @@ body{
   font-family: serif, Garamond;
 }
 body p{
-  font-size:20px;
+  font-size:18px;
 }
 h1,h2,h3,h4{
   /* font-size:bold; */
@@ -13,14 +13,31 @@ h1,h2,h3,h4{
   color:blue
 }
 .companytitle-heading{
-    background-color:blue;
+    background-color:#2d3a80;
     color: white;
     height:45px;
     font-size:20px;
+    
+}
+.feel-free-contact-height p{
+  line-height:1;
 }
 /*navbar code logics*/
+.hover-nav-link:hover{
+  color:#1c4fc7;
+}
 .log-heading-styling{
   margin:5px
+}
+#nav-bar-text-bold{
+  font-weight:bold;
+  color:black;
+  font-size:15px;
+  font-style:serif;
+}
+#nav-bar-text-bold:hover{
+  color:white;
+ background-color:blue;
 }
 .company-log-title{
   background:blue;
@@ -50,6 +67,11 @@ h1,h2,h3,h4{
   margin-top:100px;
   padding-left:22px;
   padding-top:30px;
+}
+/*book your service button height and width adjestment*/
+.book-your-service{
+  height:40px;
+  width:250px;
 }
 @media (min-width:992px) { 
     .titleReport_imge_styles{
@@ -111,8 +133,9 @@ h1,h2,h3,h4{
     color:white;
   }
   .footer-size2 {
-    font-size: 50px;
+    font-size:30px;
     padding: 10px;
+    margin-top:10px;
   }
   .footer-icon-sizing{
     font-size:25px;
@@ -142,6 +165,16 @@ h1,h2,h3,h4{
   }
   a:hover{
     color:white
+  }
+  /*reaise request button*/
+  .raise-request-button{
+    height:55px;
+    width:250px;
+    font-size:25px;
+   
+  }
+  #raise-request-button2{
+    text-decoration: none;
   }
 
  
