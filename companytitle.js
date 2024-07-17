@@ -99,10 +99,12 @@ const fullName = document.getElementById("name");
 const email = document.getElementById("email")
 const comments = document.getElementById("comments")
 
-
+// Flag to prevent multiple submissions
 function sendEmail() {
     const bodyMessage = `Full Name: ${fullName.value} <br> Email: ${email.value} <br> comments: ${comments.value}`;
     //console.log(bodyMessage);
+    console.log("Sending email with body:", bodyMessage);
+
     Email.send({
         Host: "smtp.elasticemail.com",
         Username: "legaltitle.in@gmail.com",
@@ -120,12 +122,16 @@ function sendEmail() {
                     icon: "success"
                 });
             }
+            console.log("Email send response:", message);
         }
-    );
+    ).catch(error => {
+        console.error("Error sending email:", error);
+    });
 }
 form.addEventListener("submit", (e) => {
     e.preventDefault();
+    console.log("Form submitted");
     sendEmail();
     form.reset();
     return false;
-})
+});
